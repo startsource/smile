@@ -1,0 +1,77 @@
+.header {
+  margin: 0px
+}
+
+.title {
+  color: rgb(255, 218, 26);
+  background-color: rgb(0, 81, 186);
+  text-decoration: none;
+}
+
+.title:hover {
+  color: rgb(255, 218, 26);
+  background-color: rgb(0, 81, 186);
+  text-decoration: none;
+  text-align: center;
+  border: 5px rgb(255, 218, 26) solid;
+}
+
+.menu {
+  border: 5px white solid;
+  width: 31.08px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 218, 26);
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.menu:hover {
+  border: 5px rgb(0, 81, 186) solid;
+  width: 31.08px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 218, 26);
+}
+
+ul, li, .list {
+  color: rgb(0, 81, 186);
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.contentbox {
+  border: 10px rgb(0, 81, 186) solid;
+  border-radius: 100%;
+  background-color: rgb(255, 218, 26);
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+
+}
+
+.page {
+  text-align: center;
+  color: rgb(0, 81, 186);
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+}
