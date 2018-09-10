@@ -34,7 +34,8 @@
   width: 3.9em;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(255, 218, 26);}
+  background-color: rgb(255, 218, 26);
+}
 
 /*
 여기 코드좀..
@@ -62,7 +63,6 @@ ul, li, .list {
   text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
-
 }
 
 .page {
