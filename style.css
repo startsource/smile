@@ -14,22 +14,28 @@
 }
 
 .menu {
+  display: grid;
+  grid-template-columns: 7vh;
+  grid-template-rows: 7vh 7vh 7vh;
+  grid-gap: 5%;
   border: 10px white solid;
-  width: 3.9em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(255, 218, 26);
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  padding-top: 0.8%;
-  padding-bottom: 0.8%;
-  list-style: none;
   padding-left: 0px;
-  text-align: center;
+  text-decoration: none;
+  justify-content: center;
 }
 
-.menu:hover {
-  border: 10px rgb(0, 81, 186) solid;
+li:hover {
+  border: 5px rgb(0, 81, 186) solid;
+}
+
+li {
+  font-size: 4vh;
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  border: 5px white solid;
+  border-radius: 100%;
+  background-color: rgb(255, 218, 26);
 }
 
 .list {
