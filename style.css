@@ -55,6 +55,8 @@
 }
 
 .page {
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
   color: rgb(0, 81, 186);
 }
