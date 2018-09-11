@@ -13,6 +13,7 @@
 
 .title:hover {
   border: 10px rgb(255, 218, 26) solid;
+  transition: border .2s;
 }
 
 .menu {
@@ -27,10 +28,6 @@
   margin: 0px;
 }
 
-li:hover {
-  border: 5px rgb(0, 81, 186) solid;
-}
-
 li {
   font-size: 4vh;
   list-style: none;
@@ -39,6 +36,11 @@ li {
   border: 5px white solid;
   border-radius: 100%;
   background-color: rgb(255, 218, 26);
+}
+
+li:hover {
+  border: 5px rgb(0, 81, 186) solid;
+  transition: border .2s;
 }
 
 .list {
@@ -79,4 +81,8 @@ h1 {
   text-align: center;
   font-size: 13px;
   font-style: italic;
+}
+
+.menu li a{
+  display: block;
 }
